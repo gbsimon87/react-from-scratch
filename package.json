@@ -2,7 +2,7 @@
   "name": "statsy-from-scratch",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/gbsimon87/statsy-from-scratch.git",
+  "repository": "https://github.com/gbsimon87/react-from-scratch.git",
   "author": "Simon Cordova",
   "license": "MIT",
   "browserslist": [
