@@ -14,3 +14,4 @@ To run the project: <br />
 `cd statsy` <br />
 `yarn` (or `npm install`)<br />
 `yarn run dev` (or `npm run dev`) <br />
+My own React build using Parcel
