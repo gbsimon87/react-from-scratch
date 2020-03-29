@@ -4,6 +4,7 @@
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:jest/recommended",
     "prettier",
     "prettier/react"
   ],
@@ -13,12 +14,7 @@
     "no-console": "warn"
   },
   "parser": "babel-eslint",
-  "plugins": [
-    "react",
-    "import",
-    "jsx-a11y",
-    "react-hooks"
-  ],
+  "plugins": ["react", "import", "jsx-a11y", "react-hooks", "jest"],
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module",
@@ -29,7 +25,8 @@
   "env": {
     "es6": true,
     "browser": true,
-    "node": true
+    "node": true,
+    "jest/globals": true
   },
   "settings": {
     "react": {
